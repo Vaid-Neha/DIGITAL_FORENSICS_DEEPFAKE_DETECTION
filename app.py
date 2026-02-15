@@ -20,16 +20,10 @@ with st.sidebar:
         "It uses **YOLOv8** to detect humans in images."
     )
     st.markdown("---")
-    st.write("Project by: [Your Name]")
+    st.write("Project by: Neha Vaid")
 # Main UI
 st.title("🕵️‍♂️ Human Detection System")
 st.markdown("Upload an image to check for the presence of humans.")
-st.markdown("""
----
-### 👩‍💻 Project by: **Neha Vaid**  
-B.Tech CSE  
-Manipal University Jaipur  
-""")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
