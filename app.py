@@ -24,6 +24,13 @@ with st.sidebar:
 # Main UI
 st.title("🕵️‍♂️ Human Detection System")
 st.markdown("Upload an image to check for the presence of humans.")
+st.markdown("""
+---
+### 👩‍💻 Project by: **Neha Vaid**  
+B.Tech CSE  
+Manipal University Jaipur  
+""")
+
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
     # Display columns
